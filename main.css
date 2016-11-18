@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    font-family: "Muli", serif;
+    color: black;
+    background-image: url("./cover.jpg");
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+}
+
+.wrapper {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    font-size: 42px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    margin: -100px 0 0 -150px;
+    
+    animation-name: anim;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+
+.kmalu {
+    border-bottom: 3px solid black;
+}
+
+.name {
+    font-size: 48px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+.tobe {
+    color: lightgray;
+    position: absolute;
+    top: 95%;
+    left: 75%;
+}
+
+@keyframes anim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
