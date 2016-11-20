@@ -35,6 +35,13 @@ body {
     margin: -100px 0 0 -150px;
 }
 
+.mail {
+    color: lightgray;
+    position: absolute;
+    top: 95%;
+    right: 80%;
+}
+
 .tobe {
     color: lightgray;
     position: absolute;
