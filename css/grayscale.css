@@ -23,28 +23,25 @@ h2, h3, h4, h5, h6, h7 {
     text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 1px;
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+    padding-top: 80px;
+    text-align: left;
 }
 
 h1 {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    margin: 75px 0 0 50px;
+    margin: 140px 0 0 0;
     width: 690px;
     padding-top: 200px;
-    font-size: 80px;
+    font-size: 75px;
     text-align: right;
 }
 
 .cv .row div {
 	text-align: left;
-}
-
-h2, h3, h4, h5, h6, h7 {
-    font-size: 18px;
-    font-family: "Ralway", sans-serif;
-    padding-top: 80px;
-    text-align: left;
 }
 
 #contact .row div div {
@@ -72,7 +69,9 @@ iframe {
 }
 
 .intro-text {
-	text-align: right;
+	text-align: center;
+    font-size: 30px;
+    margin: 10px 0 0 0px;
 }
 
 ol {
@@ -232,6 +231,7 @@ footer {
 
 footer p {
     margin: 0;
+    text-align: center;
 }
 
 ::-moz-selection {
