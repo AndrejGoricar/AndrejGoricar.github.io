@@ -2,16 +2,17 @@
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+
+Modified
  */
 
 body {
     width: 100%;
     height: 100%;
-    font-family: "Palatino Linotype", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: Georgia, serif;
     color: white;
     background-color: black;
 }
-
 
 html {
     width: 100%;
@@ -23,25 +24,30 @@ h2, h3, h4, h5, h6, h7 {
     text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 1px;
-    font-size: 28px;
-    font-family: "Raleway", sans-serif;
-    padding-top: 80px;
-    text-align: left;
-}
+    color: #B6B6B6
+    }
 
 h1 {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    margin: 140px 0 0 0;
+    margin: 140px 0 0 0px;
     width: 690px;
     padding-top: 200px;
-    font-size: 75px;
-    text-align: right;
+    font-size: 76px;
+    font-family: Georgia, serif;
+    text-align: right;  
 }
 
 .cv .row div {
 	text-align: left;
+}
+
+h2, h3, h4, h5, h6, h7 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
+    text-align: left;
 }
 
 #contact .row div div {
@@ -49,11 +55,11 @@ h1 {
 }
 
 p {
-    font-family: "Raleway", sans-serif;
+    font-family: Georgia, serif;
     text-align: left;
     margin: 0 0 10px;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.5;  
 }
 
 a {
@@ -61,6 +67,7 @@ a {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 iframe {
@@ -71,11 +78,20 @@ iframe {
 .intro-text {
 	text-align: center;
     font-size: 30px;
+    font-family: Georgia, serif;
     margin: 10px 0 0 0px;
+    
 }
 
+.font-family2 { 
+    font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    font-style: italic;      
+}
+
+
 ol {
-    font-family: "Raleway", sans-serif;
+    font-family:  Georgia, serif;
     font-size: 18px;
     padding-left: 35%;
 }
@@ -90,12 +106,24 @@ a:hover, a:focus {
     color: #1d9b6c;
 }
 
+.italic { 
+    font-style: italic;
+}
+
+.bold { 
+    font-weight: 700;
+}
+
+.color2 { 
+    color: #B6B6B6;
+}
+
 .navbar-custom {
-    font-family: "Raleway";
+     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     text-transform: uppercase;
-    background-color: black;
+    background-color: black;   
 }
 
 .navbar-custom .navbar-toggle {
@@ -114,6 +142,7 @@ a:hover, a:focus {
     font-style: normal;
     font-weight: 200;
     font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -128,7 +157,6 @@ a:hover, a:focus {
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background 0.3s ease-in-out;
-    
     font-weight: 200;
 }
 
@@ -180,7 +208,7 @@ a:hover, a:focus {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(../img/cover_main5.jpg) no-repeat bottom center scroll;
+    background: url(../img/cover_main4.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -203,7 +231,7 @@ a:hover, a:focus {
 
 .btn {
     text-transform: uppercase;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;;
     font-weight: 400;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -226,12 +254,14 @@ a:hover, a:focus {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 footer p {
+     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    text-align: center;
+    font-size: 15px;
+     text-align: center;
 }
 
 ::-moz-selection {
