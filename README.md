@@ -1,2 +1,2 @@
 # AndrejGoricar.github.io
-Webpage
+Design for [andrejgoricar.com](http://andrejgoricar.com)
