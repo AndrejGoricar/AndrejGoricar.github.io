@@ -18,13 +18,11 @@ function onPage(name) {
 }
 
 function onMobile() {
-    return $(".header__hammenu").css("display") == "block";
+    return $(".header__hammenu").css("display") === "block";
 }
 
 $(document).ready(function () {
     const owlc = $(".owl-carousel"),
-          windw = $(window),
-          nav = $(".header"),
           mobile = onMobile();
 
     // Run only if on correct page
@@ -83,7 +81,7 @@ $(document).ready(function () {
         }
 
         // Set every item in carousel to height of parent
-        let owlcHeight = owlc.find(".owl-stage").height();
+        var owlcHeight = owlc.find(".owl-stage").height();
         $(".owl-item").each(function () {
             $(this).find(".item").height(owlcHeight);
         });
@@ -94,8 +92,7 @@ $(document).ready(function () {
               snackbar = $("#snackbar");
 
         copy.click(function () {
-            console.log("ok");
-            el = $("#" + $(this).attr("copy"));
+            var el = $("#" + $(this).attr("copy"));
             el.select();
             try {
                 document.execCommand("copy");
@@ -112,8 +109,7 @@ $(document).ready(function () {
 
     if (mobile) {
         const hammenu = $(".header__hammenu"),
-              links = $(".header__links"),
-              main = $("main");
+              links = $(".header__links");
 
         hammenu.click(function () {
             links.toggleClass("active");
