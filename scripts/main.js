@@ -51,7 +51,7 @@ $(document).ready(function () {
         });
     }
 
-    if (onPage("dogodki") || onPage("media")) {
+    if (onPage("dogodkiA") || onPage("media")) {
         // Init owl carousel
 
         if (!onPage("media")) {
