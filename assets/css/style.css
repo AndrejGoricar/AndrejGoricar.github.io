@@ -603,15 +603,20 @@ textarea {
     .links a:hover:before {
       width: 100%;
       transform: translateY(3px); }
-  .links a:first-of-type {
-    margin-right: auto;
-    font-size: 1.2rem; }
-    .links a:first-of-type:hover {
+  .links a:first-of-type, .links a:nth-of-type(2) {
+    font-size: 1.2rem;
+    margin-right: 0; }
+    .links a:first-of-type:hover, .links a:nth-of-type(2):hover {
       transform: none; }
-    .links a:first-of-type:after {
+    .links a:first-of-type:after, .links a:nth-of-type(2):after {
       content: none; }
-    .links a:first-of-type:before {
+    .links a:first-of-type:before, .links a:nth-of-type(2):before {
       content: none; }
+  .links a:nth-of-type(2) {
+    margin-right: auto; }
+  .links #lang-si, .links #lang-en {
+    width: 18px;
+    height: 15px; }
 
 .hamburger {
   display: none; }
