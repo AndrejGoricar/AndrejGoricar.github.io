@@ -862,9 +862,12 @@ body.contact main .copy-target:first-of-type {
 body.contact main .copy-target:not(:first-of-type) {
   margin-top: 10px; }
 
-body.contact main .copy-target .target {
+body.contact main .copy-target .target, body.contact main .copy-target .target a {
   transition: 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   color: #21b17b; }
+
+body.contact main #twine .text, body.contact main #twine .target {
+  font-size: 0.8rem; }
 
 body.images main .gallery a, body.images main .pswp a {
   cursor: pointer; }
