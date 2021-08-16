@@ -4,7 +4,7 @@
  *
  * Url: https://github.com/DefaultSimon
  * Author: Simon Goričar
- * Copyright 2019-2020. Copyrighted licensed.
+ * Copyright 2019-2021. Copyrighted licensed.
  */
 (function ($, window, document, undefined) {
 
